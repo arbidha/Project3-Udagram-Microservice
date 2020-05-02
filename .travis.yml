@@ -17,6 +17,5 @@ branches:
     - master
 install:
   - docker-compose -f source/udacity-c3-deployment/docker/docker-compose-build.yaml build --parallel
-  - docker-compose -f source/udacity-c3-deployment/docker/docker-compose-build.yaml push
 script:
   echo "done"
